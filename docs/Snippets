@@ -1,0 +1,15 @@
+// ReactBootstrap Button  
+    <Row>
+        <Col>
+          <div className='container-fluid min-vh-100 bg-dark'>
+            <div className="mx-0 p-5 d-flex justify-content-evenly">
+              <Button variant="primary">Button #1</Button>
+              <Button variant="secondary" className="mx-2">Button #2</Button>
+              <Button variant="success">Button #3</Button>
+            </div>
+          </div>
+        </Col>
+    </Row>
+
+// React Router New Page
+     <Route path='/' element={<Home />} />
