@@ -1,4 +1,4 @@
-// Setup //
+<!-- // Setup // -->
 
 git init
 git remote add origin git@github.com:username/reponame.git
@@ -6,7 +6,7 @@ git add .
 git commit -m “initial commit”
 git push origin master
 
-// The default branch has been renamed! //
+<!-- // The default branch has been renamed! // -->
 
 git branch -m main master
 git fetch origin
