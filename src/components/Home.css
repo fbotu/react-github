@@ -1,0 +1,13 @@
+div.hero-section {
+    background-image: url("../../public/img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+div.hero-section .foreground {
+    padding-top: 5rem;
+    backdrop-filter: blur(10px) brightness(50%);
+    height: 80vh;
+    overflow: hidden;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}

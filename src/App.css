@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 
 .page-title {
   font-weight: bold;
@@ -13,3 +16,11 @@
 .main-body {
   padding: 5rem;
 }
+
+.link-home {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  }

@@ -1,0 +1,13 @@
+div.about-background {
+    background-image: url("../../public/img/awar-meman-9nHZ1emN5F4-unsplash.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+div.about-foreground {
+    padding-top: 5rem;
+    backdrop-filter: brightness(75%);
+    height: 100vh;
+    overflow: hidden;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
